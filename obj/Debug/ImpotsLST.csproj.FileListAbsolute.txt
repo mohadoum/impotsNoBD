@@ -1,0 +1,15 @@
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\bin\Debug\ImpotsLST.exe.config
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\bin\Debug\ImpotsLST.exe
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\bin\Debug\ImpotsLST.pdb
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\obj\Debug\ImpotsLST.csprojResolveAssemblyReference.cache
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\obj\Debug\MainWindow.g.cs
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\obj\Debug\App.g.cs
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\obj\Debug\ImpotsLST_MarkupCompile.cache
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\obj\Debug\ImpotsLST_MarkupCompile.lref
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\obj\Debug\MainWindow.baml
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\obj\Debug\ImpotsLST.g.resources
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\obj\Debug\ImpotsLST.Properties.Resources.resources
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\obj\Debug\ImpotsLST.csproj.GenerateResource.Cache
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\obj\Debug\ImpotsLST.csproj.CoreCompileInputs.cache
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\obj\Debug\ImpotsLST.exe
+C:\Users\thian\source\repos\ImpotsLST\ImpotsLST\obj\Debug\ImpotsLST.pdb

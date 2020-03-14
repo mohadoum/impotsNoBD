@@ -1,0 +1,84 @@
+﻿<Window x:Class="ImpotsLST.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImpotsLST"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="879.993" Width="813.412">
+    <Grid Margin="0,0,2,0" Height="833" VerticalAlignment="Top" RenderTransformOrigin="0.506,0.46">
+        <Label Content="Date d'aujourd'hui: lundi 4 décembre 2017" HorizontalAlignment="Left" Height="24" Margin="271,10,0,0" VerticalAlignment="Top" Width="249" />
+        <Label Content="REPUBLIQUE DU SENEGAL" HorizontalAlignment="Left" Height="32" Margin="316,34,0,0" VerticalAlignment="Top" Width="159" FontWeight="Bold" />
+        <Image Height="76" Margin="29,41,652,0" HorizontalAlignment="Left" VerticalAlignment="Top" Source="images/flagSn.svg.png" />
+        <Label Content="Copyright Moh THIAN" HorizontalAlignment="Left" Height="35" Margin="19,171,0,0" VerticalAlignment="Top" Width="147" BorderBrush="#FF0E0E0F" FontWeight="Bold"/>
+        <Label Content="SIMULATION D'IMPOTS"  HorizontalAlignment="Left" Height="34" Margin="316,183,0,0" VerticalAlignment="Top" Width="141" RenderTransformOrigin="0.632,0.435" Background="#FF37BB55"/>
+        <Rectangle  Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="253" Margin="10,228,0,0" Stroke="Black" VerticalAlignment="Top" Width="773"/>
+        <Label  Content="Nom" HorizontalAlignment="Left" Height="36" Margin="29,250,0,0" VerticalAlignment="Top" Width="86"/>
+        <TextBox x:Name="nomEmploye"  HorizontalAlignment="Left" Height="36" Margin="158,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <Label Content="Enfants" HorizontalAlignment="Left" Height="36" Margin="434,371,0,0" VerticalAlignment="Top" Width="86" />
+        <TextBox x:Name="enfantsEmploye" HorizontalAlignment="Left" Height="36" Margin="547,375,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="190" />
+        <Label Content="Nombre de jours" HorizontalAlignment="Left" Height="36" Margin="434,313,0,0" VerticalAlignment="Top" Width="99" />
+        <TextBox x:Name="nombreJoursEmploye" HorizontalAlignment="Left" Height="36" Margin="547,313,0,0" TextWrapping="Wrap" Text="30" VerticalAlignment="Top" Width="190" />
+        <Label  Content="Conjoint" HorizontalAlignment="Left" Height="36" Margin="29,375,0,0" VerticalAlignment="Top" Width="86"/>
+        <TextBox x:Name="conjointEmploye"  HorizontalAlignment="Left" Height="36" Margin="158,375,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="190" RenderTransformOrigin="0.468,1.513"/>
+        <Label  Content="Salaire Brut" HorizontalAlignment="Left" Height="36" Margin="29,313,0,0" VerticalAlignment="Top" Width="86"/>
+        <TextBox x:Name="salaireBrutEmploye"  HorizontalAlignment="Left" Height="36" Margin="158,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <Label Content="Prénom" HorizontalAlignment="Left" Height="36" Margin="434,250,0,0" VerticalAlignment="Top" Width="86" />
+        <TextBox x:Name="prenomEmploye" HorizontalAlignment="Left" Height="36" Margin="547,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" />
+        <Label  Content="0: Célibataire" HorizontalAlignment="Left" Height="33" Margin="158,416,0,0" VerticalAlignment="Top" Width="190"/>
+        <Label  Content="1: Conjoint non Salarié" HorizontalAlignment="Left" Height="33" Margin="158,449,0,0" VerticalAlignment="Top" Width="190"/>
+        <Image Height="76" Margin="652,41,25,0" HorizontalAlignment="Left" VerticalAlignment="Top"  Source="images/flagSn.svg.png" />
+        <Button x:Name="boutonValider"  Content="Valider" HorizontalAlignment="Left" Height="44" Margin="67,493,0,0" VerticalAlignment="Top" Width="128" Background="#FF37DE6C" Click="boutonValider_Click"/>
+        <Button x:Name="boutonListEmployes" Content="Liste des employés" HorizontalAlignment="Left" Height="44" Margin="434,493,0,0" VerticalAlignment="Top" Width="128" Click="boutonListEmployes_Click"/>
+        <Button x:Name="annuler"  Content="Annuler" HorizontalAlignment="Left" Height="44" Margin="248,493,0,0" VerticalAlignment="Top" Width="128" Background="#FF37DE6C" Click="annuler_Click"/>
+        <Button x:Name="quitter" Content="Quitter" HorizontalAlignment="Left" Height="44" Margin="622,493,0,0" VerticalAlignment="Top" Width="128"  Background="#FFD62C2C" Click="quitter_Click"/>
+        <Label  Content="Label" HorizontalAlignment="Left" Height="28" Margin="29,592,0,0" VerticalAlignment="Top" Width="123"/>
+        <Label  Content="Label" HorizontalAlignment="Left" Height="28" Margin="174,592,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label  Content="Label" HorizontalAlignment="Left" Height="28" Margin="30,688,0,0" VerticalAlignment="Top" Width="123"/>
+        <Label  Content="Label" HorizontalAlignment="Left" Height="28" Margin="175,688,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label  Content="Label" HorizontalAlignment="Left" Height="28" Margin="30,641,0,0" VerticalAlignment="Top" Width="123"/>
+        <Label  Content="Label" HorizontalAlignment="Left" Height="28" Margin="175,641,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label  Content="Label" HorizontalAlignment="Left" Height="28" Margin="30,735,0,0" VerticalAlignment="Top" Width="123"/>
+        <Label  Content="Label" HorizontalAlignment="Left" Height="28" Margin="175,735,0,0" VerticalAlignment="Top" Width="100"/>
+        <Rectangle  Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="235" Margin="10,569,0,0" Stroke="Black" VerticalAlignment="Top" Width="768"/>
+        <Label  Content="Brut Fiscal Annuel" HorizontalAlignment="Left" Height="28" Margin="29,592,0,0" VerticalAlignment="Top" Width="123"/>
+        <Label x:Name="brutFiscalAnnuel"  Content="" HorizontalAlignment="Left" Height="28" Margin="210,592,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label  Content="IRPP avant réduction" HorizontalAlignment="Left" Height="28" Margin="30,688,0,0" VerticalAlignment="Top" Width="123"/>
+        <Label x:Name="irppAvantReduction"  Content="" HorizontalAlignment="Left" Height="28" Margin="210,688,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label  Content="Brut Fiscal Après Abattement" HorizontalAlignment="Left" Height="28" Margin="29,641,0,0" VerticalAlignment="Top" Width="165"/>
+        <Label x:Name="brutFiscalApresAbattement"  Content="" HorizontalAlignment="Left" Height="28" Margin="210,641,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label  Content="      IMPOTS" HorizontalAlignment="Left" Height="28" Margin="40,745,0,0" VerticalAlignment="Top" Width="102" Background="#FF6FD848"/>
+        <Label x:Name="impots"  Content="" HorizontalAlignment="Left" Height="28" Margin="208,745,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Abattement" HorizontalAlignment="Left" Height="28" Margin="497,592,0,0" VerticalAlignment="Top" Width="123" />
+        <Label x:Name="abattement" Content="" HorizontalAlignment="Left" Height="28" Margin="637,592,0,0" VerticalAlignment="Top" Width="113" RenderTransformOrigin="0.99,0.571" />
+        <Label Content="Réduction" HorizontalAlignment="Left" Height="28" Margin="497,688,0,0" VerticalAlignment="Top" Width="123" />
+        <Label x:Name="reduction" Content="" HorizontalAlignment="Left" Height="28" Margin="637,688,0,0" VerticalAlignment="Top" Width="100" />
+        <Label Content="Nombre de parts" HorizontalAlignment="Left" Height="28" Margin="497,641,0,0" VerticalAlignment="Top" Width="123" />
+        <Label x:Name="nombreParts" Content="" HorizontalAlignment="Left" Height="28" Margin="637,641,0,0" VerticalAlignment="Top" Width="100" />
+        <Label Content="Salaire Net:" HorizontalAlignment="Left" Height="28" Margin="497,745,0,0" VerticalAlignment="Top" Width="74" Background="White" />
+        <Image  HorizontalAlignment="Left" Height="85" Margin="351,66,0,0" VerticalAlignment="Top" Width="79" Source="images/devise.svg.png"/>
+        <Label Content="un peuple" HorizontalAlignment="Left" Height="28" Margin="276,99,0,0" VerticalAlignment="Top" Width="70" FontWeight="Bold"/>
+        <Label Content="une foi" HorizontalAlignment="Left" Height="28" Margin="435,99,0,0" VerticalAlignment="Top" Width="64" FontWeight="Bold"/>
+        <Label Content=" un but" HorizontalAlignment="Left" Height="27" Margin="360,151,0,0" VerticalAlignment="Top" Width="59" FontWeight="Bold"/>
+        <Border BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Height="26" Margin="19,171,0,0" VerticalAlignment="Top" Width="147"/>
+        <Border BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Height="28" Margin="497,745,0,0" VerticalAlignment="Top" Width="167" Panel.ZIndex="2"/>
+        <TextBox x:Name="matriculeEmploye" HorizontalAlignment="Left" Height="26" Margin="588,437,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="96" FontWeight="Bold" BorderBrush="#FFFBFBFB" SelectionBrush="White" CaretBrush="#FF021111" Panel.ZIndex="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="36" Margin="497,433,0,0" VerticalAlignment="Top" Width="198" Background="White">
+            <Label Content="Matricule: " Margin="20,-1,103,4" FontWeight="Bold"/>
+        </Border>
+        <Label x:Name="salaireNet" Content="" HorizontalAlignment="Left" Height="28" Margin="571,745,0,0" VerticalAlignment="Top" Width="93" Background="White" BorderBrush="#FF474444" />
+
+        <Grid x:Name="gridListEmployes" Background="White" Panel.ZIndex="1000">
+            <Label Content="Liste des employés déjà saisis" HorizontalAlignment="Left" Height="37" Margin="271,10,0,0" VerticalAlignment="Top" Width="286" FontWeight="Bold" FontSize="20"/>
+            <DataGrid x:Name="dataGridEmployes" HorizontalAlignment="Left" Height="650" Margin="10,66,0,0" VerticalAlignment="Top" Width="773" Panel.ZIndex="-1000"/>
+            <Button x:Name="boutonRetourAcceuilBottom" Content="ACCUEIL" HorizontalAlignment="Left" Height="46" Margin="350,768,0,0" VerticalAlignment="Top" Width="125" Background="#FF508FFF" FontSize="20" Click="boutonRetourAcceuilBottom_Click" Panel.ZIndex="-1000"/>
+            <Button x:Name="boutonRetourAcceuilTop" Content="" HorizontalAlignment="Left" Height="34" Margin="29,13,0,0" VerticalAlignment="Top" Width="56" Click="boutonRetourAcceuilTop_Click" Panel.ZIndex="-1000">
+                <Button.Background>
+                    <ImageBrush ImageSource="images/backspace.png" TileMode="FlipY" Stretch="None"/>
+                </Button.Background>
+            </Button>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="34" Margin="254,13,0,0" VerticalAlignment="Top" Width="303" Panel.ZIndex="-1000"/>
+        </Grid>
+    </Grid>
+
+</Window>
